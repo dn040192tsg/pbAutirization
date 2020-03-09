@@ -1,0 +1,19 @@
+<html>
+
+<body>
+    <div>
+        <form action="/logout" method="post">
+            <input type="hidden" name="_csrf" value="{{_csrf.token}}" />
+            <input type="submit" value="Sign Out"/>
+        </form>
+    </div>
+
+    {{#messages}}
+        <div>Hello, {{username}}</div>
+        <div>
+            <span>{{fullName}}</span>
+            <i>{{email}}</i>
+        </div>
+    {{/messages}}
+</body>
+</html>
