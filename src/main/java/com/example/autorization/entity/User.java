@@ -1,4 +1,4 @@
-package com.example.autorization.domain;
+package com.example.autorization.entity;
 
 import javax.persistence.*;
 import java.util.Objects;

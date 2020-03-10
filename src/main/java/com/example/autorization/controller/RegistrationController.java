@@ -1,7 +1,7 @@
 package com.example.autorization.controller;
 
-import com.example.autorization.domain.Role;
-import com.example.autorization.domain.User;
+import com.example.autorization.entity.Role;
+import com.example.autorization.entity.User;
 import com.example.autorization.repos.UserRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

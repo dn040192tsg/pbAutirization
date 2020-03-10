@@ -1,6 +1,6 @@
 package com.example.autorization.repos;
 
-import com.example.autorization.domain.Message;
+import com.example.autorization.entity.Message;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;
